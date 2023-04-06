@@ -1,0 +1,35 @@
+<html>
+
+<head>
+<meta HTTP-EQUIV="Content-Type" CONTENT="text/html; charset=iso-8859-1">
+<title>welcome</title>
+<style>
+    p{color: antiquewhite;
+        font-size: xx-large;
+        font-family: Arial, Helvetica, sans-serif;
+
+
+
+    }
+    body {
+      background-image: url('welcome.jpg');
+      background-repeat: no-repeat;
+      background-attachment: fixed;  
+      background-size: cover;
+    }
+    </style>
+</head>
+<body >
+
+    <p align="center"><b><font size="10">ajout dun joueur</font></b></p>
+    <form method="POST" action="ganger.html" name='f'>
+        <p>taper votre nom: <input type="text" name="cin" size="40"></p>
+        <p>ecrir un mssg avant de jouer  : <textarea rows="3" name="adr" cols="20"></textarea></p>
+        <p><input type="reset" value="Annuler" name="B2">
+            <input type="submit" value="jouer" name="B1" onclick='verif2()'></p>
+    </form>
+    <p>&nbsp;</p>
+    
+    </body>
+    
+    </html> 
