@@ -1,0 +1,62 @@
+<!DOCTYPE html>
+<html>
+<head>
+<title>game</title>
+<script type="text/javascript" >
+function test(){
+    var s=0000;
+    while(s<2000){
+        while(s<1050){
+            h=Number(f.fname.value);
+            if(h==0||h==50||h==100||h==150||h==200||h==250||h==300||h==350||h==400||h==450||h==500||h==550||h==600||h==650||h==700||h==750||h==800||h==850||h==900||h==950||h==1000){
+                var m=prompt("taper 50 ou 100 ");}
+                l=Number(m);
+                var t=h+l;
+                var y=100;
+                var z=50;
+                s=s+t;
+                
+                
+                if(s==50 || s==200 || s==350 || s==500 || s==650 || s==800 || s== 950){
+                    s=s+y;}
+                else{s=s+z;}
+                alert(s);
+                      
+                if(s==1000|| s==950){alert(" be a smart girl and you can winn me");}
+        while (s>=1050 && s<2000)  {
+            h=Number(f.fname.value);
+            if(h==0||h==1050||h==1100||h==1150||h==1200||h==1250||h==1300||h==1350||h==1400||h==1450||h==1500||h==1550||h==1600||h==1650||h==1700||h==1750||h==1800||h==1850||h==1900||h==1950){
+                var m=prompt("taper 50           ou        100 ");}
+                l=Number(m);
+                var t=h+l;var y=100;
+                var z=50;
+                s=s+h;
+                if(s==1500 || s==1550){alert(" take care you musst winn");}
+                if (s==1050 || s==1200 || s==1350 || s==1500 || s==1650 || s==1800 ){
+                    s=s+z; }
+                else {
+                    s=s+y ;}
+                alert(s);
+                if(s==2000 || 2050){f.fname.value=("you lose") ;}
+                if(s==2000 || 2050){f.name.value=("try another time") ;}
+        
+    }
+        }}return false;}
+    
+</script>
+</head>
+<body style="background-color: antiquewhite;">
+
+<h1 style="text-align: center;">try your chance</h1>
+<form name="f" action="lose.html" > 
+    lire x
+<input type="text" id="fname" name="fname" placeholder="0"></br>
+la somme s
+<input type="text" id="name" name="name" placeholder="0"></br>
+<input type="button" style="margin: 0cm;content: calc(you);"  onclick=" return test();" name="submit" value="CLICK FOR PLAYING "/>
+</form>
+
+
+
+</body>
+</html> 
